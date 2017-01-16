@@ -1,0 +1,272 @@
+@media only screen and (max-width: 775px) {
+	/*顶部导航栏*/
+	#bigNav{
+		display: none;
+	}
+	.smallNav{
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 999;
+	}
+	.main{
+		margin-top: 44px;
+	}
+	/*main*/
+	.mainPic li{
+		float: left;
+		width: 50%;
+	}
+	.mainPic .bigPic{
+		display: none;
+	}
+	/*滚动条*/
+	.picRoll{
+		display: none;
+	}
+	/*官方视频*/
+	.officeVideoContainer{
+		width: 100%;
+		padding: 10px 0 20px;
+	}
+	.officeVideo h1{
+		font-size: 15px;
+		line-height: 16px;
+		margin-left: 2px;
+	}
+	.more{
+		font-size: 10px;
+		padding: 0px 4px;
+		margin-left: 12px;
+		vertical-align: middle;
+		line-height: 20px;
+	}
+	.officeVideo nav{
+		margin-top: 1px;
+	}
+	.officeVideo nav ul{
+		margin-left: 2px;
+	}
+	.officeVideo nav li{
+		margin-right: 10px;
+	}
+	.officeVideo nav a{
+		font-size: 13px;
+		line-height: 13px;
+	}
+	.smallHiden{
+		display: none;
+	}
+	.officeVideoImgBig{
+		margin-top: 8px;
+	}
+	.officeVideoImgBig img{
+		width: 100%;
+	}
+	.officeVideoImgBig li{
+		width: 49%;
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+	}
+	.officeVideoImgBig li:nth-child(2){
+		margin-bottom: 8px;
+		margin-right: 0.5%;
+	}
+	.officeVideoImgBig li:nth-child(3){
+		margin-bottom: 8px;
+	}
+	.officeVideoImgBig li:nth-child(4){
+		margin-right: 0.5%;
+	}
+	.officeVideoDetail{
+		left: 8px;
+		bottom: 3px;
+	}
+	.officeVideoDetail span{
+		font-size: 13px;
+		line-height: 24px;
+		padding: 0 5px;
+	}
+	.officeVideoDetail h2{
+		font-size: 13px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-top: 3px;
+	}
+	.officeVideoDetail p{
+		font-size: 12px;
+		line-height: 20px;
+		margin-bottom: 7px;
+	}
+	.officeVideoImgBig li:hover .playIcon{
+		display: none;
+	}
+	.seperateLine{
+		margin-top: 28px;
+		margin-bottom: 15px;
+	}
+	.officeVideoImgSmall ul li{
+		width: 49%;
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+		margin-bottom: 10px;
+	}
+	.officeVideoImgSmall ul li:hover .playIcon{
+		display: none;
+	}
+	.officeVideoImgSmall img{
+		/*display: block;*/
+		width: 100%;
+	}
+	.officeVideoSmTitle{
+		line-height: 38px;
+		font-size: 13px;
+	}
+	/*OK推荐部分*/
+	.introContainer{
+		width: 100%;
+	}
+	.introImgTopR{
+		display: none;
+	}
+	.introduction{
+		padding: 10px 0 30px;
+	}
+	.introContainer h1{
+		font-size: 15px;
+		line-height: 16px;
+		margin-left: 5px;
+	}
+	.introImgTop{
+		margin-top: 8px;
+	}
+	.introImgTopLT{
+		padding-right: 25px;
+	}
+	.introImgTopLT h2{
+		line-height: 30px;
+	}
+	.introImgBottom{
+		margin-top: 10px;
+	}
+	.introImgBottom li{
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+		width: 49%;
+	}
+	.introImgBottom li img{
+		width: 100%;
+	}
+	.introImgBottom li:nth-child(1){
+		margin-bottom: 10px;
+	}
+	.introImgBottom li:nth-child(2){
+		margin-bottom: 10px;
+	}
+	.introImgBottomT{
+		padding-bottom: 2px;
+	}
+	.introImgBottomT a h2{
+		line-height: 26px;
+		font-size: 13px;
+		padding: 10px 10px 5px 10px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.introImgBottomT div span:first-child{
+		margin-right: 3px;
+	}
+	/*section手机工具*/
+	.tool{
+		padding: 10px 0 0 0;
+	}
+	.tool img{
+		width: 100%;
+	}
+	.toolContainer{
+		width: 100%;
+	}
+	.toolTitle h1{
+		margin-left: 5px;
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.toolImgBig{
+		margin-top: 8px;
+	}
+	.toolImgBig li:first-child{
+		display: none;
+	}
+	.toolImgBig li:nth-child(2){
+		width: 100%;
+	}
+	.toolImgBig li:nth-child(3){
+		width: 50%;
+	}
+	.toolImgBig li:nth-child(4){
+		width: 50%;
+	}
+	.toolSmallImg{
+		margin-top: 0px;
+	}
+	.toolSmallImg li{
+		margin: 0;
+		width: 50%;
+	}
+	.toolSmallImg li img{
+		width: 100%;
+	}
+	/*sectionFIX手机服务*/
+	.service{
+		padding: 10px 0 20px 0;
+	}
+	.serviceContainer{
+		width: 100%;
+	}
+	.serviceTitle h1{
+		margin-left: 5px;
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.serviceImgBig{
+		margin-top: 8px;
+	}
+	.serviceImgBigL{
+		width: 100%;
+	}
+	.serviceImgBigL li{
+		width: 50%;
+	}
+	.serviceImgBigR{
+		display: none;
+	}
+	.serviceImgSmall{
+		margin-top: 5px;
+	}
+	.serviceImgSmall li{
+		margin-right: 0px;
+		width: 49%;
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+	}
+	.serviceImgSmall li:nth-child(1){
+		margin-bottom: 5px;
+	}
+	.serviceImgSmall li:nth-child(2){
+		margin-bottom: 5px;
+	}
+	/*页面底部*/
+	footer{
+		display: none;
+	}
+	.footerSmall{
+		display: block;
+	}
+	/*返回顶部按钮*/
+	.go-top{
+		display: none;
+	}
+}
